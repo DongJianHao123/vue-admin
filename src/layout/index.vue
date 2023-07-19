@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="default-layout-container">
+
     <Head />
     <Content />
   </div>
@@ -14,6 +15,4 @@ export default {
 import Content from "./Content.vue";
 import Head from "./Head.vue";
 </script>
-
-<style scoped lang="less">
-</style>>
+<style scoped lang="less"></style>

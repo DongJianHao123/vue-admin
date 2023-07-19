@@ -1,14 +1,14 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 import Layout from '../layout/index.vue'
-import CreateGlobalState from './CreateGlobalState/index.vue'
+import UpgradeView from './upgrade/index.vue'
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
         component: Layout,
         children: [
             {
-                path: 'global-state',
-                component: CreateGlobalState
+                path: 'upgrade',
+                component: UpgradeView
             }]
     }
 ]
